@@ -1,0 +1,6 @@
+2021-01-29 18:21:17.330 ERROR 10892 --- [main] com.kao.logback.LogbackApplication       LogbackApplication.java:20: Spring boot啟始初始化了 125 个 Bean
+2021-01-29 18:21:17.338 ERROR 10892 --- [main] com.kao.logback.LogbackApplication       LogbackApplication.java:25: 【SpringBootDemoLogbackApplication】啟始異常：
+
+java.lang.ArithmeticException: / by zero
+	at com.kao.logback.LogbackApplication.main(LogbackApplication.java:23)
+

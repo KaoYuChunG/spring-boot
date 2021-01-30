@@ -1,0 +1,18 @@
+spring:
+  flyway:
+    enabled: true
+    # 遷移前校驗 SQL 文件是否存在問題
+    validate-on-migrate: true
+    # 生產環境一定要關閉
+    clean-disabled: true
+    # 校驗路徑下是否存在 SQL 文件
+    check-location: false
+    # 最開始已经存在表結構，且不存在 flyway_schema_history 表时，需要設置為true
+    baseline-on-migrate: true
+    # 基础版本 0
+    baseline-version: 0
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flyway-test?useSSL=false
+    username: root
+    password: root
+    type: com.xxx.hikari.HikariDataSource

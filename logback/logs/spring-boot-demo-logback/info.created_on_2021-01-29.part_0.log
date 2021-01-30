@@ -1,0 +1,12 @@
+2021-01-29 18:21:12.766  INFO 10892 --- [main] com.kao.logback.LogbackApplication       : Starting LogbackApplication using Java 15 on KAO with PID 10892 (C:\Users\xxx\Desktop\spring boot\spring-boot\logback\target\classes started by xxx in C:\Users\xxx\Desktop\spring boot\spring-boot\logback)
+2021-01-29 18:21:12.774  INFO 10892 --- [main] com.kao.logback.LogbackApplication       : No active profile set, falling back to default profiles: default
+2021-01-29 18:21:15.969  INFO 10892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-29 18:21:16.012  INFO 10892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-29 18:21:16.013  INFO 10892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-29 18:21:16.247  INFO 10892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-01-29 18:21:16.248  INFO 10892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3151 ms
+2021-01-29 18:21:16.773  INFO 10892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-29 18:21:17.284  INFO 10892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2021-01-29 18:21:17.311  INFO 10892 --- [main] com.kao.logback.LogbackApplication       : Started LogbackApplication in 6.304 seconds (JVM running for 8.709)
+2021-01-29 18:21:17.321  INFO 10892 --- [main] com.kao.logback.LogbackApplication       : Spring boot啟始初始化了 125 个 Bean
+2021-01-29 18:21:17.328  WARN 10892 --- [main] com.kao.logback.LogbackApplication       : Spring boot啟始初始化了 125 个 Bean
